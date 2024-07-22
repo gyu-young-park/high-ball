@@ -3,6 +3,8 @@ from middleware import Middleware
 
 app = API()
 
+print("temp !")
+
 @app.route("/home")
 def home(request, response):
     print(request.method)
